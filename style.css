@@ -1,0 +1,90 @@
+:root{
+    
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey900: hsl(0, 0%, 8%);
+}
+
+ @font-face {
+    font-family: 'mina';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+ }
+ @font-face {
+    font-family: 'mina';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+ }
+ @font-face {
+    font-family: 'mina';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+ }
+ @font-face {
+    font-family: "mina";
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+ }
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'mina';
+    text-decoration: none;
+ }
+ body{
+    background-color: var(--Grey900);
+ }
+ body .mop{
+    background-color: var(--Grey800);
+    margin:100px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 78%;
+    border-radius: 10px;
+ }
+ .mop .img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px;
+ }
+ .mop .p h2{
+    color: var(--White);
+    text-align: center;
+    /* padding: 0 0 5px 0; */
+ }
+ .mop .p #g{
+    color: var(--Green);
+    text-align: center;
+    padding: 0 0 10px 0;
+ }
+ .mop .p p{
+    color: var(--White);
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+ }
+ .mop .a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 15px;
+    width: 100%;
+    margin-top: 10px;
+ }
+ .mop .a a{
+    background-color: var(--Grey700);
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--White);
+    transition: 0.5s;
+ }
+ .mop .a a:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+ }
